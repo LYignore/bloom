@@ -1,0 +1,19 @@
+{
+    "name": "lyignore\/bloom",
+    "description": "Bloem algorithm combined with redis implementation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuyang",
+            "email": "1585296643@qq.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lyignore\\Bloom\\": "src"
+        }
+    }
+}
